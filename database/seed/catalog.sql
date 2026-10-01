@@ -104,3 +104,4 @@ insert into public."jummo_secret_rewards" ("id","title","reward_type","body","st
 Một ngày dù bận rộn đến đâu, mong bạn vẫn giữ cho mình một khoảng bình yên. Cảm ơn bạn đã mang âm nhạc và nụ cười đến góc nhỏ này.
 — Lời nhắn biên tập của fansite, không phải thư thật của nghệ sĩ.','published',0) on conflict do nothing;
 commit;
+\ir ../updates/20260930_verified_profiles.sql
